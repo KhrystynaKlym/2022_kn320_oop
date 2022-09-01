@@ -5,8 +5,8 @@
 ### Виконання роботи
 - Результати виконання завдань:
 
-    1. Створили папку з шаблоном звіту
-    2. Створили першу програму та виконали її
+    :one: Створили папку з шаблоном звіту
+    :two: Створили першу програму та виконали її
       
         ```python
         from datetime import datetime
@@ -15,12 +15,12 @@
         ```
 
 
-    3. Отримали наступні результати та на скріншоті:
+    :three: Отримали наступні результати та на скріншоті:
 
         ![alt text](https://github.com/KhrystynaKlym/2022_kn320_oop/raw/main/1_lab/screenshots/1_lab.jpg "Результат виконання першої програми")
 
 
-    4. Створили PythonNoteBook та виконали його
+    :four: Створили PythonNoteBook та виконали його
 
         ![alt text](https://github.com/KhrystynaKlym/2022_kn320_oop/raw/main/1_lab/screenshots/1_1_lab.jpg "Результат виконання програми в PythonNoteBook")
 
