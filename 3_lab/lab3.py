@@ -40,7 +40,10 @@ class MyName:
         """
         return f"Побажання: {message}"
 
+    def name_length(self):
+        return len(self.name)
 
+    
 print("Let's Start!")
 
 names = ("Bohdan", "Marta", "Khrystyna", None)
@@ -54,8 +57,8 @@ This is {type(MyName.whoami)}: {me.whoami} / {me.my_email}
 This is {type(me.create_email)} call: {me.create_email()}
 This is static {type(MyName.say_hello)} with defaults: {me.say_hello()} 
 This is class variable {type(MyName.total_names)}: from class {MyName.total_names} / from object {me.total_names}
-\nКількість букв в імені {me.name}: {len(me.name)}  :))))
-Кількість імен в списку {names}: {len(names)}   :))))\n
+\nКількість букв в імені:  {me.name_length()}  :))))
+Кількість імен в списку {names}: {len(names)}   :))))\n\n
 {"<*>"*20}""")
 
 print(f"We are done. We create {me.total_names} names! ??? Why {MyName.total_names}?")
